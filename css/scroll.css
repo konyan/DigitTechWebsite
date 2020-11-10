@@ -1,0 +1,28 @@
+.teamList {
+  scroll-behavior: smooth;
+  display: flex;
+  overflow-x: scroll;
+  height: 450px;
+  padding-top: 7px;
+  -ms-overflow-style: none;
+}
+
+.clearfix {
+  position: relative;
+}
+
+.teamList::-webkit-scrollbar {
+  display: none;
+}
+
+.block_color {
+  top: -30px;
+  position: absolute;
+  border-bottom-right-radius: 400px;
+  border-top-right-radius: 400px;
+  background-color: #ff8048;
+  height: 500px;
+  width: 300px;
+  box-shadow: 0px 0px 20px rgba(23, 23, 23, 0.15);
+  background-image: linear-gradient(to right, #f434a1 0%, #ff8442 100%);
+}
