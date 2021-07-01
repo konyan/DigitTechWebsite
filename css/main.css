@@ -1371,9 +1371,6 @@ img {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
 }
-.main-menu .navigation > li:hover {
-  border-bottom: 4px solid #aa222a;
-}
 
 .main-menu .navigation > li:last-child {
   margin-right: 0px;
@@ -8345,8 +8342,4 @@ img {
 
 .footer-logo {
   width: 180px;
-}
-
-.text-color {
-  border-bottom: 4px solid #aa222a;
 }
