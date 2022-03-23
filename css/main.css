@@ -48,7 +48,7 @@ font-family: 'Open Sans', sans-serif;*/
 @import url('./animation.css');
 @import url('./jquery.fancybox.min.css');
 @import url('./jquery.mCustomScrollbar.min.css');
-
+@import url('./lottie.css');
 /***
 
 ====================================================================
@@ -1370,9 +1370,6 @@ img {
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-}
-.main-menu .navigation > li:hover {
-  border-bottom: 4px solid #aa222a;
 }
 
 .main-menu .navigation > li:last-child {
@@ -8345,8 +8342,4 @@ img {
 
 .footer-logo {
   width: 180px;
-}
-
-.text-color {
-  border-bottom: 4px solid #aa222a;
 }
