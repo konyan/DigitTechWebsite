@@ -11,8 +11,23 @@
   position: relative;
 }
 
+.teamList {
+  overflow-y: hidden;
+  height: 100%;
+  padding-bottom: 20px;
+  overflow-x: scroll;
+  overscroll-behavior-inline: contain;
+  z-index: 100;
+}
+
 .teamList::-webkit-scrollbar {
-  display: none;
+  height: 6px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 16px;
+  background: linear-gradient(to right, #f434a1 0%, #ff8442 100%);
 }
 
 .block_color {
