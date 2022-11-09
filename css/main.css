@@ -162,6 +162,7 @@ p {
   max-width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
+  position: relative;
 }
 
 .medium-container {
@@ -1951,6 +1952,8 @@ select {
 ***/
 
 .fluid-section-one {
+  max-width: 1200px;
+  margin: 0 auto;
   position: relative;
   padding: 85px 0px 120px 0px;
 }
@@ -1992,6 +1995,7 @@ select {
 }
 
 .fluid-section-one .content-column {
+  padding-left: 4rem;
   position: relative;
   float: right;
   width: 50%;
@@ -3047,7 +3051,7 @@ select {
   position: relative;
   z-index: 1;
   margin-right: 20px;
-  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .team-block.style-two {
@@ -3393,7 +3397,12 @@ select {
 .footer__social-media a {
   font-size: 20px;
   color: #ffffff !important;
-  padding: 20px 0;
+  padding: 10px 0;
+  transition: all 0.3s;
+}
+
+.footer__social-media a:hover {
+  color: #0060ff !important ;
 }
 
 .footer__about {
