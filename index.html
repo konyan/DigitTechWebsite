@@ -880,35 +880,7 @@
               </div>
 
               <!-- Team Block -->
-              <div class="team-block">
-                <div
-                  class="inner-box wow fadeInUp"
-                  data-wow-delay="900ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div class="image">
-                    <img
-                      src="./images/team/nay_lin_htet.jpeg"
-                      alt="nay-lin-myat"
-                    />
-                  </div>
-                  <h5>Nay Lin Myat</h5>
-                  <div class="designation">Developer</div>
-                  <!-- <ul class="social-nav">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/kaung.htetnaing.35912"
-                        class="fa fa-facebook"
-                      ></a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://github.com/Kaung-Htet-Naing"
-                        class="fa fa-github"
-                      ></a>
-                    </li>
-                  </ul> -->
-                </div>
+              
               </div>
             </div>
           </div>
@@ -927,31 +899,51 @@
           <div class="contact__container-left">
             <img src="./images/resource/form.png" alt="form" />
           </div>
-          <form action="" class="contact__container-right">
+          <form class="contact__container-right" action="#" method="post" id="sumbit">
             <h5>What can we help you with?</h5>
-            <label for="name">Name</label>
-            <input type="text" name="" id="name" />
 
-            <label for="email">Email address </label>
-            <input type="email" name="" id="email" />
+            <div>
+              <label for="name">Name <span>*</span></label>
+              <input type="text" name="" id="name" required/>
+            </div>
 
-            <label for="Phone">Phone number </label>
-            <input type="tel" name="" id="Phone" />
+            <div>
+              <label for="email">Email address <span>*</span></label>
+              <input type="email" name="" id="email" required/>
+            </div>
 
-            <label for="select">Select</label>
-            <select name="" id="select">
-              <option value="General enquiries">General enquiries</option>
-              <option value="Business proposal ">Business proposal</option>
-            </select>
+            <div>
+              <label for="phone">Phone number <span>*</span></label>
+              <input type="tel" name="" id="phone" required/>
+            </div>
 
-            <label for="">Leave us a message</label>
-            <textarea
-              name=""
-              id=""
-              placeholder="Give us a little more information about it"
-            ></textarea>
+            <div class="select">
+              <p>Select</p>
+              <div class="select__container">
+                <span class="option-text">select option</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <ul class="options">
+                <li class="option">
+                  General enquiries
+                </li>
+                <li class="option">
+                  Business proposal
+                </li>
+              </ul>
+            </div>
 
-            <button>Summit</button>
+            <div>
+                <label for="">Leave us a message</label>
+                <textarea
+                  name=""
+                  id="message"
+                  placeholder="Give us a little more information about it"
+                  required
+                ></textarea>
+            </div>
+
+              <button type="submit" >Summit</button>
           </form>
         </div>
       </section>
@@ -982,10 +974,10 @@
           </div>
           <div class="footer__about about">
             <h5>about us</h5>
-            <a href="">Services</a>
-            <a href="">Technology</a>
-            <a href="">Support</a>
-            <a href="">Team</a>
+            <a href="#Services">Services</a>
+            <a href="#Technology">Technology</a>
+            <a href="#Support">Support</a>
+            <a href="#Team">Team</a>
           </div>
         </div>
         <!-- Copyright Column -->
@@ -1058,5 +1050,16 @@
         autoplay: true, // optional
       });
     </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("6chWr0ziXuDrbr3kN");
+      })();
+    </script>
+    <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </body>
 </html>

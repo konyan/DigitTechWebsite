@@ -3036,7 +3036,7 @@ select {
   padding-bottom: 0px;
 }
 
-.team-section:before {
+/* .team-section:before {
   position: absolute;
   content: "";
   left: -10px;
@@ -3045,7 +3045,7 @@ select {
   height: 140px;
   border-radius: 50%;
   background-color: #f4f4f4;
-}
+} */
 
 .team-block {
   position: relative;
@@ -3064,7 +3064,7 @@ select {
   padding: 30px 30px 50px;
   border-radius: 150px;
   overflow: hidden;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -3072,12 +3072,12 @@ select {
   -o-transition: all 0.3s ease;
 }
 
-.team-block .inner-box:hover {
+/* .team-block .inner-box:hover {
   box-shadow: 0px 15px 15px rgba(246, 65, 145, 0.2);
-}
+} */
 
 .team-block .inner-box:before {
-  position: absolute;
+  /* position: absolute;
   content: "";
   left: 0px;
   top: 0px;
@@ -3089,8 +3089,8 @@ select {
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  background-image: -ms-linear-gradient(left, #e9d8a6 0%, #f1c0e8 100%);
+  -o-transition: all 0.3s ease; */
+  /* background-image: -ms-linear-gradient(left, #e9d8a6 0%, #f1c0e8 100%);
   background-image: -moz-linear-gradient(left, #e9d8a6 0%, #f1c0e8 100%);
   background-image: -o-linear-gradient(left, #e9d8a6 0%, #f1c0e8 100%);
   background-image: -webkit-gradient(
@@ -3101,11 +3101,11 @@ select {
     color-stop(100, #f1c0e8)
   );
   background-image: -webkit-linear-gradient(left, #e9d8a6 0%, #f1c0e8 100%);
-  background-image: linear-gradient(to right, #e9d8a6 0%, #f1c0e8 100%);
+  background-image: linear-gradient(to right, #e9d8a6 0%, #f1c0e8 100%); */
 }
 
 .team-block .inner-box:hover::before {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .team-block .inner-box .image {
@@ -3151,7 +3151,7 @@ select {
 
 .team-block .inner-box:hover h5,
 .team-block .inner-box:hover .designation {
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 .team-block .inner-box .designation {
@@ -3402,7 +3402,7 @@ select {
 }
 
 .footer__social-media a:hover {
-  color: #0060ff !important ;
+  color: #7d35d9 !important;
 }
 
 .footer__about {
@@ -3427,6 +3427,11 @@ select {
   color: #ffffff;
   font-size: 20px;
   margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.footer__about a:hover {
+  color: #7d35d9;
 }
 
 .copyright-column .copyright {
